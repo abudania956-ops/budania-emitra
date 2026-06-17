@@ -2,114 +2,239 @@
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>बुडानिया ई-मित्र एवं CSC सेंटर</title>
 
 <style>
-body{margin:0;font-family:Arial;background:#f5f5f5}
-header{background:#0b1d68;color:white;padding:15px;text-align:center}
-nav{background:#ff6a00;padding:10px;text-align:center}
-nav a{color:white;text-decoration:none;margin:10px;font-weight:bold}
-section{padding:20px}
-.card{background:white;padding:15px;border-radius:10px;margin:10px;box-shadow:0 0 10px #ccc}
-.gallery img{width:100%;max-width:300px;margin:10px;border-radius:10px}
-table{width:100%;border-collapse:collapse;background:white}
-table,th,td{border:1px solid #ccc}
-th,td{padding:10px;text-align:left}
-.btn{background:#25D366;color:white;padding:10px 20px;text-decoration:none;border-radius:5px}
-footer{background:#111;color:white;text-align:center;padding:15px}
+
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#f4f6f9;
+}
+
+.header{
+background:#0057d9;
+color:white;
+text-align:center;
+padding:15px;
+font-size:28px;
+font-weight:bold;
+}
+
+.banner img{
+width:100%;
+display:block;
+}
+
+.box{
+background:white;
+margin:15px;
+padding:15px;
+border-radius:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+h2{
+color:#0057d9;
+text-align:center;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+.notice{
+background:#fff3cd;
+border-left:6px solid orange;
+}
+
+.update{
+background:#d1ecf1;
+border-left:6px solid #17a2b8;
+}
+
+.service{
+background:#198754;
+color:white;
+padding:12px;
+margin:8px 0;
+border-radius:10px;
+}
+
+.contact-btn{
+display:block;
+text-decoration:none;
+text-align:center;
+padding:15px;
+margin:10px;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+color:white;
+}
+
+.call{background:#28a745;}
+.whatsapp{background:#25D366;}
+.location{background:#dc3545;}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#0057d9;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+}
+
+.footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>बुडानिया ई-मित्र एवं CSC सेंटर</h1>
-<p>सांखू फोर्ट, जिला चूरू (राजस्थान)</p>
-<p>📞 9636707824 | 📧 abudania956@gmail.com</p>
-</header>
-
-<nav>
-<a href="#home">Home</a>
-<a href="#about">हमारे बारे में</a>
-<a href="#services">सेवाएँ</a>
-<a href="#fees">फीस सूची</a>
-<a href="#gallery">गैलरी</a>
-<a href="#payment">Payment</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<section id="home">
-<h2>स्वागत है</h2>
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.16.45%20PM.jpeg" width="100%">
-</section>
-
-<section id="about">
-<div class="card">
-<h2>हमारे बारे में</h2>
-<p>बुडानिया ई-मित्र एवं CSC सेंटर पर सभी प्रकार की ई-मित्र, CSC एवं ऑनलाइन सेवाएँ उपलब्ध हैं।</p>
+<div class="header">
+बुडानिया ई-मित्र एवं CSC सेंटर
 </div>
-</section>
 
-<section id="services">
-<h2>हमारी सेवाएँ</h2>
-<div class="card">आधार कार्ड</div>
-<div class="card">पैन कार्ड</div>
-<div class="card">जन आधार</div>
-<div class="card">राशन कार्ड</div>
-<div class="card">जाति प्रमाण पत्र</div>
-<div class="card">मूल निवास</div>
-<div class="card">ऑनलाइन फॉर्म</div>
-<div class="card">ड्राइविंग लाइसेंस</div>
-<div class="card">पासपोर्ट सेवा</div>
-<div class="card">विवाह पंजीकरण</div>
-</section>
+<div class="banner">
+<img src="banner.jpg" alt="Banner">
+</div>
 
-<section id="fees">
-<h2>फीस सूची</h2>
+<div class="box notice">
+<h2>📢 महत्वपूर्ण सूचना</h2>
+
+<p><b>सभी ऑनलाइन फॉर्म की सर्विस फीस ₹100 है।</b></p>
+
+<p><b>ऑनलाइन संपर्क करने पर ई-मित्र सर्विस फीस पर 5% विशेष छूट मिलेगी।</b></p>
+
+</div>
+
+<div class="box">
+
+<h2>📋 सेवाएँ एवं फीस</h2>
+
 <table>
-<tr><th>सेवा</th><th>शुल्क</th></tr>
+
 <tr><td>आधार कार्ड</td><td>₹100</td></tr>
+
 <tr><td>पैन कार्ड</td><td>₹200</td></tr>
+
 <tr><td>जन आधार</td><td>₹50</td></tr>
+
 <tr><td>राशन कार्ड</td><td>₹100</td></tr>
+
 <tr><td>जन्म प्रमाण पत्र</td><td>₹200</td></tr>
+
 <tr><td>जाति प्रमाण पत्र</td><td>₹50</td></tr>
+
 <tr><td>मूल निवास</td><td>₹50</td></tr>
+
 <tr><td>ऑनलाइन फॉर्म</td><td>₹100</td></tr>
-<tr><td>परीक्षा फॉर्म</td><td>फीस + ₹100</td></tr>
-<tr><td>ड्राइविंग लाइसेंस</td><td>फीस + ₹100</td></tr>
-<tr><td>पासपोर्ट</td><td>फीस + ₹100</td></tr>
+
+<tr><td>परीक्षा फॉर्म</td><td>₹100 + फीस</td></tr>
+
+<tr><td>ड्राइविंग लाइसेंस</td><td>₹100 + फीस</td></tr>
+
+<tr><td>पासपोर्ट</td><td>₹100 + फीस</td></tr>
+
 <tr><td>विवाह पंजीकरण</td><td>₹200</td></tr>
+
 </table>
-</section>
 
-<section id="gallery">
-<h2>गैलरी</h2>
-<div class="gallery">
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.44.59%20PM.jpeg">
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.44.59%20PM%20(1).jpeg">
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.44.59%20PM%20(2).jpeg">
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.45.00%20PM%20(1).jpeg">
 </div>
-</section>
 
-<section id="payment">
-<h2>PhonePe Payment</h2>
-<img src="WhatsApp%20Image%202026-06-17%20at%2010.16.45%20PM.jpeg" width="300">
-<p>UPI द्वारा भुगतान करें</p>
-</section>
+<div class="box">
 
-<section id="contact">
-<h2>संपर्क करें</h2>
-<p>📞 9636707824</p>
-<p>📧 abudania956@gmail.com</p>
-<a class="btn" href="https://wa.me/919636707824">WhatsApp करें</a>
-</section>
+<h2>🆕 नई सेवाएँ</h2>
 
-<footer>
-© 2026 बुडानिया ई-मित्र एवं CSC सेंटर | सांखू फोर्ट
-</footer>
+<div class="service">आयुष्मान कार्ड</div>
+
+<div class="service">पेंशन आवेदन</div>
+
+<div class="service">स्कॉलरशिप फॉर्म</div>
+
+<div class="service">किसान पंजीकरण</div>
+
+</div>
+
+<div class="box update">
+
+<h2>🔔 नोटिफिकेशन</h2>
+
+<p>नई सरकारी योजनाओं की जानकारी यहाँ दिखाई जाएगी।</p>
+
+<p>नए फॉर्म और अपडेट यहाँ अपडेट किए जा सकते हैं।</p>
+
+</div>
+
+<div class="box">
+
+<h2>📞 संपर्क करें</h2>
+
+<p><b>अशोक बुडानिया</b></p>
+
+<p>📱 9636707824</p>
+
+<p>📍 सांखू फोर्ट, जिला चूरू</p>
+
+</div>
+
+<a class="contact-btn call" href="tel:9636707824">
+📞 कॉल करें
+</a>
+
+<a class="contact-btn whatsapp"
+href="https://wa.me/919636707824">
+💬 WhatsApp
+</a>
+
+<a class="contact-btn location"
+href="https://maps.google.com">
+📍 लोकेशन
+</a>
+
+<div class="box">
+
+<h2>⭐ फीडबैक</h2>
+
+<input type="text" placeholder="आपका नाम">
+
+<textarea rows="5"
+placeholder="अपना सुझाव लिखें"></textarea>
+
+<button>भेजें</button>
+
+</div>
+
+<div class="footer">
+
+© 2026 Budania E-Mitra & CSC Center
+
+</div>
 
 </body>
 </html>
